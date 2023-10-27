@@ -1,3 +1,3 @@
-fetch('https://jsonplaceholder.typicode.com/posts/1')
-.then(response => response.json())
-.then(data => console.log(data))
+fetch('http://localhost:5000/users')
+.then((response) => response.json())
+.then((data) => console.log(data))
